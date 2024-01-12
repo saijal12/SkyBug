@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(37, 35, 35);
+}
+#calculator{
+    background: rgb(22, 21, 21);
+    width: 400px;
+    height: 500px;
+    margin-top: 250px;
+    /* margin-left: 0%; */
+    /* display: flex; */
+    color:white;
+    object-fit: cover;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.line{
+    display: flex;
+    /* gap:0rem; */
+    justify-content: space-evenly;
+}
+#danger{
+    background-color: rgb(22, 21, 21);
+    cursor:pointer;
+    border: 0.3px solid gainsboro;
+    color:whitesmoke;
+}
+input{
+    color:black;
+    height: 80px;
+    margin: 5px;
+    border:1px solid grey;
+    text-align: right;
+    font-size: xx-large;
+    /* width:100%; */
+    
+}
+#equal{
+    cursor:pointer;
+}
+
+#func{
+    background-color: gray;
+    cursor:pointer;
+    border: 0.3px solid gainsboro;
+}
+button{
+    width:70px;
+    height: 70px;
+    background-color: gainsboro;
+    font-size: larger;
+    font-weight: bold;
+    border: 0.3px solid grey;
+    border-radius: 3px 3px;
+    box-shadow: 0.5px 0.5px 0px 0.1px gray;
+}
